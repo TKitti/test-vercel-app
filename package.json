@@ -2,7 +2,7 @@
   "name": "test-vercel-app",
   "version": "1.0.0",
   "description": "",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@vercel/node": "^2.14.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   }
 }
