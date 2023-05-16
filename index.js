@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-app.get("/api/test", (req, res) => {
+app.get("/", (req, res) => {
   res.send("teszt");
 });
 
